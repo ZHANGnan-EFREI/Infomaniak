@@ -7,7 +7,14 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		C66009281A2B5C3100728A53 /* Student.m in Sources */ = {isa = PBXBuildFile; fileRef = C66009271A2B5C3100728A53 /* Student.m */; };
+		C660092B1A2B718400728A53 /* Teacher.m in Sources */ = {isa = PBXBuildFile; fileRef = C660092A1A2B718400728A53 /* Teacher.m */; };
+		C660092E1A2B785900728A53 /* externalTeacher.m in Sources */ = {isa = PBXBuildFile; fileRef = C660092D1A2B785900728A53 /* externalTeacher.m */; };
+		C66009311A2B7BA200728A53 /* internalTeacher.m in Sources */ = {isa = PBXBuildFile; fileRef = C66009301A2B7BA200728A53 /* internalTeacher.m */; };
+		C66009341A2CB9B100728A53 /* FullCampusException.m in Sources */ = {isa = PBXBuildFile; fileRef = C66009331A2CB9B100728A53 /* FullCampusException.m */; };
+		C66009371A2CBDAA00728A53 /* Infomaniak.m in Sources */ = {isa = PBXBuildFile; fileRef = C66009361A2CBDAA00728A53 /* Infomaniak.m */; };
 		C6C2609C1A26A24700BA02E6 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = C6C2609B1A26A24700BA02E6 /* main.m */; };
+		C6C260A31A27F50B00BA02E6 /* Campus.m in Sources */ = {isa = PBXBuildFile; fileRef = C6C260A21A27F50B00BA02E6 /* Campus.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -23,8 +30,22 @@
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
+		C66009271A2B5C3100728A53 /* Student.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Student.m; sourceTree = "<group>"; };
+		C66009291A2B5C4700728A53 /* Student.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Student.h; sourceTree = "<group>"; };
+		C660092A1A2B718400728A53 /* Teacher.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Teacher.m; sourceTree = "<group>"; };
+		C660092C1A2B719800728A53 /* Teacher.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Teacher.h; sourceTree = "<group>"; };
+		C660092D1A2B785900728A53 /* externalTeacher.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = externalTeacher.m; sourceTree = "<group>"; };
+		C660092F1A2B786A00728A53 /* externalTeacher.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = externalTeacher.h; sourceTree = "<group>"; };
+		C66009301A2B7BA200728A53 /* internalTeacher.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = internalTeacher.m; sourceTree = "<group>"; };
+		C66009321A2B7BB900728A53 /* internalTeacher.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = internalTeacher.h; sourceTree = "<group>"; };
+		C66009331A2CB9B100728A53 /* FullCampusException.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FullCampusException.m; sourceTree = "<group>"; };
+		C66009351A2CB9C200728A53 /* FullCampusException.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FullCampusException.h; sourceTree = "<group>"; };
+		C66009361A2CBDAA00728A53 /* Infomaniak.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Infomaniak.m; sourceTree = "<group>"; };
+		C66009381A2CBDBE00728A53 /* Infomaniak.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Infomaniak.h; sourceTree = "<group>"; };
 		C6C260981A26A24700BA02E6 /* Infomaniak */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = Infomaniak; sourceTree = BUILT_PRODUCTS_DIR; };
 		C6C2609B1A26A24700BA02E6 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		C6C260A21A27F50B00BA02E6 /* Campus.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Campus.m; sourceTree = "<group>"; };
+		C6C260A51A27FFE300BA02E6 /* Campus.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Campus.h; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -58,6 +79,20 @@
 			isa = PBXGroup;
 			children = (
 				C6C2609B1A26A24700BA02E6 /* main.m */,
+				C6C260A21A27F50B00BA02E6 /* Campus.m */,
+				C6C260A51A27FFE300BA02E6 /* Campus.h */,
+				C66009271A2B5C3100728A53 /* Student.m */,
+				C66009291A2B5C4700728A53 /* Student.h */,
+				C660092A1A2B718400728A53 /* Teacher.m */,
+				C660092C1A2B719800728A53 /* Teacher.h */,
+				C660092D1A2B785900728A53 /* externalTeacher.m */,
+				C660092F1A2B786A00728A53 /* externalTeacher.h */,
+				C66009301A2B7BA200728A53 /* internalTeacher.m */,
+				C66009321A2B7BB900728A53 /* internalTeacher.h */,
+				C66009331A2CB9B100728A53 /* FullCampusException.m */,
+				C66009351A2CB9C200728A53 /* FullCampusException.h */,
+				C66009361A2CBDAA00728A53 /* Infomaniak.m */,
+				C66009381A2CBDBE00728A53 /* Infomaniak.h */,
 			);
 			path = Infomaniak;
 			sourceTree = "<group>";
@@ -118,7 +153,14 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				C660092B1A2B718400728A53 /* Teacher.m in Sources */,
+				C66009341A2CB9B100728A53 /* FullCampusException.m in Sources */,
+				C6C260A31A27F50B00BA02E6 /* Campus.m in Sources */,
 				C6C2609C1A26A24700BA02E6 /* main.m in Sources */,
+				C66009371A2CBDAA00728A53 /* Infomaniak.m in Sources */,
+				C66009311A2B7BA200728A53 /* internalTeacher.m in Sources */,
+				C660092E1A2B785900728A53 /* externalTeacher.m in Sources */,
+				C66009281A2B5C3100728A53 /* Student.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -232,6 +274,7 @@
 				C6C260A11A26A24700BA02E6 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
